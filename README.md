@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+一个实时聊天程序
+
+技术栈: Next.js13 + TypeScript + Tailwind CSS + MongoDB + Prisma + Pusher + NextAuth
 
 ## Getting Started
 
