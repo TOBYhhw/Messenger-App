@@ -32,7 +32,7 @@ export default function Home() {
             text-gray-900
           "
         >
-          Sign in to your account
+          登录到您的账户
         </h2>
       </div>
       <AuthForm />

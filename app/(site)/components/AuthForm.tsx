@@ -142,13 +142,9 @@ const AuthForm = () => {
             text-gray-500 
             "
         >
-          <div>
-            {variant === "LOGIN"
-              ? "New to Messenger?"
-              : "Already have an account?"}
-          </div>
+          <div>{variant === "LOGIN" ? "我是新东西" : "我是老东西"}</div>
           <div onClick={toggleVariant} className="underline cursor-pointer">
-            {variant === "LOGIN" ? "Create an account" : "Login"}
+            {variant === "LOGIN" ? "创建一个账户" : "To Login"}
           </div>
         </div>
       </div>
