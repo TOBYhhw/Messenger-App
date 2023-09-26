@@ -1,34 +1,49 @@
-一个实时聊天程序
+````markdown
+# 实时聊天程序
 
-技术栈: Next.js13 + TypeScript + Tailwind CSS + MongoDB + Prisma + Pusher + NextAuth
+这是一个实时聊天程序，采用以下技术栈：
 
-## Getting Started
+- [Next.js](https://nextjs.org) 13
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [MongoDB](https://www.mongodb.com)
+- [Prisma](https://www.prisma.io)
+- [Pusher](https://pusher.com)
+- [NextAuth](https://next-auth.js.org)
 
-First, run the development server:
+## 快速开始
 
-```bash
-npm install
-npm run dev
+要开始使用这个项目，请按照以下步骤操作：
+
+1. 克隆项目到本地:
+
+   ```bash
+   git clone [项目仓库链接]
+   cd [项目文件夹名称]
+   ```
+````
+
+2. 安装依赖:
+
+   ```bash
+   npm install
+   ```
+
+3. 运行开发服务器:
+
+   ```bash
+   npm run dev
+   ```
+
+## 已完成的功能
+
+目前项目已经实现了以下功能：
+
+- 登录和注册
+- 支持第三方登录，如 GitHub 和 Google 登录
+
+欢迎开始使用这个实时聊天程序，探索更多功能并与其他用户进行实时交流！
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
