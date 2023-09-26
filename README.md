@@ -1,9 +1,9 @@
-````markdown
+
 # 实时聊天程序
 
 这是一个实时聊天程序，采用以下技术栈：
 
-- [Next.js](https://nextjs.org) 13
+- [Next.js](https://nextjs.org) 
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS](https://tailwindcss.com)
 - [MongoDB](https://www.mongodb.com)
@@ -21,7 +21,7 @@
    git clone [项目仓库链接]
    cd [项目文件夹名称]
    ```
-````
+
 
 2. 安装依赖:
 
