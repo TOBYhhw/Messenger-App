@@ -33,9 +33,9 @@ const Avatar: React.FC<AvatarProps> = ({ user }) => {
           alt="Avatar"
         />
       </div>
-      {/* {isActive ? (
-        <span
-          className="
+
+      <span
+        className="
             absolute 
             block 
             rounded-full 
@@ -49,8 +49,7 @@ const Avatar: React.FC<AvatarProps> = ({ user }) => {
             md:h-3 
             md:w-3
           "
-        />
-      ) : null} */}
+      />
     </div>
   );
 };
