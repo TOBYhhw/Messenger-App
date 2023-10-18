@@ -20,6 +20,7 @@ const AuthForm = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    //使用useEffect hook来监听用户的会话状态，如果用户已经通过身份验证，将重定向到"/users"页面。
     if (session?.status === "authenticated") {
       router.push("/users");
     }
